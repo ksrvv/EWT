@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="by">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <meta name:="viewport" content="width=device-width, initial-scale=1">
+    <title>ekstrshhaWeb</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href="error.html">czytacz.by</a>
+            </div>
+            <div class="header__inner">
+                
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#main">Галоўная</a>
+                    <a class="nav__link" href="#" data-scroll="#events">Мерапрыемствы</a>
+                    <a class="nav__link" href="#" data-scroll="#about">Пра нас</a>
+                    <a class="nav__link" href="#" data-scroll="#contact">Сувязь</a>
+                    <a class="nav__link" href="#" data-scroll="#how_to_find">Як нас знайсці?</a>
+                </nav>
+                <button class ="burger" type="button" id="navButton">
+                    <span class="burger__item"> </span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="main" id="main">
+        <div class="container" id="maininfo">
+            <h1 class="main__title">Лепшая сучасная бібліятэка.</h1>
+            <p class="main__sec_title">czytacz.by -цікавыя кнігі вы ўтульнай прасторы.</p>
+        </div>
+        <div class="events__items">
+            <div class="container2">
+                <p class="descr"> Любіце чытаць? Наша бібліятэка - найкраще місце для прыемнага баўлення часу.</p>
+                <p class="positives__title">Нашы перавагі: </p>
+                <p class="pos__item">-вялікі выбар беларускай літаратуры ад класікаў да сучаснікаў</p>
+                <p class="pos__item">-зручнае месцазнаходжанне ў цэнтры горада</p>
+                <p class="pos__item">-стылевыя чытальныя залы, ў якіх ХОЧАЦЦА працаваць</p>
+
+            </div>
+            <div class="slider" id = "slider">
+              <div>
+                <div class="slider_item">
+                    <img class="item__photo" src="img/рис4.png" alt="слайд 1">  
+                </div>
+                </div>
+                <div>
+                    <div class="slider_item">
+                        <img class="item__photo" src="img/рис5.png" alt="слайд 2">  
+                    </div>
+                </div>
+               <div>
+                <div class="slider_item">
+                    <img class="item__photo" src="img/рис6.png" alt="слайд 3">  
+                </div>
+                
+            </div>
+            <div>
+                <div class="slider_item">
+                    <img class="item__photo" src="img/рис1.png" alt="слайд 4">  
+                </div>
+                
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="events" id="events">
+        <div class="container">
+            <h1 class="events__title">Мерапрыемствы.</h1>
+            <img class="line" src="img/line.png" alt="лінія">
+        </div>
+        <div class="events__items">
+            <div class="item">
+                <img class="item__image" src="img/events/event1.png" alt="мерапрыемства">
+            </div>
+            <div class="item">
+                <img class="item__image" src="img/events/event2.png" alt="мерапрыемства">
+            </div>
+            <div class="item">
+                <img class="item__image" src="img/events/event3.png" alt="мерапрыемства">
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about__items">
+                <div class="about__item">
+                    <h1 class="about__title">Як мы працуем?</h1>
+                    <p class="worktime">пн. - чц.: 10:00-20:00</p>
+                    <p class="worktime">пт. - сб.: 10:00 - 18:00</p>
+                    <p class="worktime">нядзеля: 12:00- 17:00</p>
+                </div>
+                <div class="about__item">
+                    <h1 class="about__title">Хто мы?</h1>
+                    <p class="about__text">czytacz.by - сучасная бібліятэка, створаная дзеля
+                        распаўсюджвання і захавання кніг беларускіх
+                        каласікаў і сучаснікаў.</p>
+                    <p class="about__text">мы ЗА тое, каб вы чыталі. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback" id="contact">
+        <!-- <div class="feedback__container"> -->
+            <h1 class="feedback__title">Для сувязі з намі калі ласка запоўніце форму:</h1>
+            <div class="container__feedback_form">
+                <form>
+                    <label for="fname">Імя</label>
+                    <input type="text" id="fname" name="fname">
+                  </form>
+                  <form>
+                    <label for="fsurname">Прозвішча</label>
+                    <input type="text" id="fsurname" name="fsurname">
+                  </form>
+                  <form>
+                    <label for="femail">Адрас электроннай скрыні</label>
+                    <input type="text" id="femail" name="femail">
+                  </form>
+                  <form>
+                    <label for="fcom">Ваш каментар або пытанне</label>
+                    <input type="text" id="fcom" name="fcom">
+                  </form>
+                
+
+            </div>
+            <button class="button">адправіць</button>
+        <!-- </div> -->
+    </div>
+    <div class="how_to_find" id="how_to_find">
+        <div class="container">
+            <h1 class="how_to_find__title">Як нас знайсці?</h1>
+
+            <div class="container3">
+                <p class="social_links">У сацыяльных сетках:</p>
+                <div class="links">
+
+                    <div class="link">
+                        <img class="link__image" src="img/inst_img.png" alt="інстаграм">
+                        <p class="link_text">czytacz.by</p>
+                    </div>
+                    <div class="link">
+                        <img class="link__image" src="img/tg_img.png" alt="тэлеграм">
+                        <p class="link_text" href="#">@czytacz.by</p>
+
+                    </div>
+                </div>
+            </div>
+            <p class="adr">А таксама ў афлайне: 220098 Г. Мінск, вул. Крапоткіна д. 40</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A71f3b38b2b4d750dd338f45d25d21b8a45707c5ebfe7802ecb0828bfd478d0f6&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">Зроблена бай ektrshha</p>
+            <p class="poshta"><a href="mailto:kksrvvv@gmail.com">напісаць лучшему разрабу</a></p>
+        </div>
+    </footer>
+
+    <script  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="app.js">
+    </script>
+    
+</body>
+
+
+</html>
